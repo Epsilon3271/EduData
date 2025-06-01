@@ -1,3 +1,15 @@
+Soient deux joueurs :
+
+* \$J\_A = R\_A\$, le joueur \$A\$ avec le nombre de points \$R\_A\$
+* \$J\_B = R\_B\$, le joueur \$B\$ avec le nombre de points \$R\_B\$
+
+Alors, la probabilité \$P\_A\$ que \$J\_A\$ gagne un duel face à \$J\_B\$ est exprimée par la formule suivante :
+
+$$
+P_A = \frac{1}{1 + 10^{\frac{R_B - R_A}{400}}}
+$$
+
+
 # Cahier des Charges – Projet **Edu Data**
 
 ## Objectif du projet :
